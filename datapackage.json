@@ -16,7 +16,6 @@
   ],
   "resources": [
     {
-      "homepage": "https://data.agreenidea.org",
       "path": "data/price-solar-australia.csv",
       "format": "csv",
       "schema": {
@@ -57,7 +56,8 @@
         ]
       },
       "url": "https://raw.github.com/datasets/bond-yields-uk-10y/master/data/price-solar-australia.csv",
-      "name": "price-solar-australia"
+      "name": "price-solar-australia",
+      "homepage": "http://data.agreenidea.org"
     }
   ]
 }
