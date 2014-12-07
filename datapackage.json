@@ -1,0 +1,61 @@
+{
+  "name": "price-of-solar-panels-australia",
+  "title": "Solar Choice Solar PV Price Index",
+  "sources": [
+    {
+      "name": "Solar Choice Price Index",
+      "web": "http://www.solarchoice.net.au/blog"
+    }
+  ],
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/",
+      "name": "Public Domain Dedication and License"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/price-solar-australia.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "City",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string",
+            "description": "abbreviation for State or Territory of Australia"
+          },
+          {
+            "name": "Size",
+            "type": "number",
+            "format": "kilowatts",
+            "description": "size of solar system in kilowatt"
+          },
+          {
+            "name": "Date",
+            "type": "date",
+            "format": "DDMMYYYY",
+            "description": "The last day of the month that the price applies to"
+          },
+          {
+            "name": "Type",
+            "type": "string",
+            "description": "residential or commercial"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "dollar",
+            "description": "Price in Australian dollars"
+          }
+        ]
+      },
+      "url": "https://raw.github.com/datasets/bond-yields-uk-10y/master/data/price-solar-australia.csv",
+      "name": "price-solar-australia"
+    },
+  ]
+}
