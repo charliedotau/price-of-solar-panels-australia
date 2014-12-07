@@ -16,13 +16,15 @@
   ],
   "resources": [
     {
+      "homepage": "https://data.agreenidea.org",
       "path": "data/price-solar-australia.csv",
       "format": "csv",
       "schema": {
         "fields": [
           {
             "name": "City",
-            "type": "string"
+            "type": "string",
+            "description", "the Australian city that the price data relates to"
           },
           {
             "name": "State",
@@ -33,7 +35,7 @@
             "name": "Size",
             "type": "number",
             "format": "kilowatts",
-            "description": "size of solar system in kilowatt"
+            "description": "size of solar system in kilowatts"
           },
           {
             "name": "Date",
