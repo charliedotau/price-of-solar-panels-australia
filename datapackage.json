@@ -55,7 +55,7 @@
           }
         ]
       },
-      "url": "https://raw.github.com/datasets/bond-yields-uk-10y/master/data/price-solar-australia.csv",
+      "url": "https://raw.githubusercontent.com/charliedotau/price-of-solar-panels-australia/master/data/price-solar-australia.csv",
       "name": "price-solar-australia",
       "homepage": "http://data.agreenidea.org"
     }
