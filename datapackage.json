@@ -51,7 +51,7 @@
             "name": "Price",
             "type": "number",
             "format": "dollar",
-            "description": "Price in Australian dollars"
+            "description": "Price in Australian dollars, including GST and relevant subsidies"
           },
           {
             "name": "Source",
