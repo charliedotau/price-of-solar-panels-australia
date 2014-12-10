@@ -52,6 +52,12 @@
             "type": "number",
             "format": "dollar",
             "description": "Price in Australian dollars"
+          },
+          {
+            "name": "Source",
+            "type": "string",
+            "format": "URL",
+            "description": "reference to source web page"
           }
         ]
       },
